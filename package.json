@@ -1,11 +1,14 @@
 {
-    "name": "rent-cost-api",
+    "name": "@job-analytics/rent-cost-api",
     "version": "1.0.0",
     "description": "Unofficial costof.live api.",
     "main": "server.js",
     "scripts": {
         "start": "node server",
         "server": "nodemon server"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "author": "",
     "license": "ISC",
